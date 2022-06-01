@@ -44,10 +44,10 @@ const Navbar = () => {
                 <a href="#" className="mt-4 md:mt-0">Advertiser</a>
             </nav>
             <div className="hidden lg:flex lg:flex-row mx-auto lg:w-48 justify-between lg:ml-auto lg:mx-0">
-                <a href="#" className="p-1 bg-white rounded-full flex justify-center items-center shadow-sm shadow-black/20"><img src={facebookLogo} alt="link" /></a>
-                <a href="#" className=" p-1 bg-white rounded-full ml-4 md:ml-0 flex justify-center items-center shadow-sm shadow-black/20"><img src={twitterLogo} alt="link" /></a>
-                <a href="#" className=" p-1 bg-white rounded-full ml-4 md:ml-0 flex justify-center items-center shadow-sm shadow-black/20"><img src={linkedinLogo} alt="link" /></a>
-                <a href="#" className=" p-1 bg-white rounded-full ml-4 md:ml-0 flex justify-center items-center shadow-sm shadow-black/20"><img src={instagramLogo} alt="link" /></a>
+                <a href="https://www.facebook.com/" target="_blank" className="p-1 bg-white rounded-full flex justify-center items-center shadow-sm shadow-black/20"><img src={facebookLogo} alt="link" /></a>
+                <a href="https://twitter.com/?lang=en" target="_blank" className=" p-1 bg-white rounded-full ml-4 md:ml-0 flex justify-center items-center shadow-sm shadow-black/20"><img src={twitterLogo} alt="link" /></a>
+                <a href="https://www.linkedin.com/login" target="_blank" className=" p-1 bg-white rounded-full ml-4 md:ml-0 flex justify-center items-center shadow-sm shadow-black/20"><img src={linkedinLogo} alt="link" /></a>
+                <a href="https://www.instagram.com/?hl=en" target="_blank" className=" p-1 bg-white rounded-full ml-4 md:ml-0 flex justify-center items-center shadow-sm shadow-black/20"><img src={instagramLogo} alt="link" /></a>
 
             </div>
         </div>

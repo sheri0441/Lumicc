@@ -9,7 +9,7 @@ const Testimony = () => {
     return(
         <div className="font-Manrope text-primary pt-28 text-center pb-9 ">
             <img className="hidden md:block absolute left-[50%] translate-x-[-50%] -z-10 "  src={user} alt="" />
-            <div className="w-[470px] mx-auto flex flex-col justify-center">
+            <div className="max-w-[470px] mx-auto flex flex-col justify-center">
                 <h2 className="text-3xl md:text-5xl font-extrabold ">Testimonials</h2>
                 <p className="font-medium mt-7">We’re proud to have helped over 200,000 small and medium-sized businesses reach new heights!</p>
                 <img className="mx-auto" src={avataar} alt= "" />
