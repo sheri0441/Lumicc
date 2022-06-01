@@ -10,10 +10,10 @@ const Footer = () => {
             <hr className="border-gray-400" />
             <div className="flex flex-col md:flex-row flex-wrap items-center justify-between my-auto px-8 py-8"
             >
-                <div className="flex items-center font-Manrope font-bold mt-3 md:mt-0">
+                <a className="flex items-center font-Manrope font-bold mt-3 md:mt-0" href="#hero">
                     <img className="w-16" src={logo} alt="" />
                     <p className="ml-3 text-white text-2xl ">Lumicc</p>
-                </div>
+                </a>
                 <div className="flex flex-row mx-auto lg:w-48 justify-between  mt-3 md:mt-0">
                     <a href="https://www.facebook.com/" target="_blank" className="p-1 bg-white rounded-full flex justify-center items-center shadow-sm shadow-black/20"><img src={facebookLogo} alt="link" /></a>
                     <a href="https://twitter.com/?lang=en" target="_blank" className=" p-1 bg-white rounded-full ml-4 md:ml-0 flex justify-center items-center shadow-sm shadow-black/20"><img src={twitterLogo} alt="link" /></a>

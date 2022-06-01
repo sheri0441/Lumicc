@@ -29,11 +29,10 @@ const Navbar = () => {
 
     return(
         <div className={navigation ? "navigationStyle bg-white" : "navigationStyle"}>
-
-            <div className="flex items-center lg:mr-auto">
-                <img src={logo} alt="lumicc" />
-                <p className=" ml-3 ">Lumicc</p>
-            </div>
+                <a className="flex items-center lg:mr-auto" href="#hero">
+                    <img src={logo} alt="lumicc" />
+                    <p className=" ml-3 ">Lumicc</p>
+                </a>
             <div className="md:hidden">
                 <img onClick={Nav} src={hamburger} alt="" />
             </div>

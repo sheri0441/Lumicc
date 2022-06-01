@@ -3,7 +3,7 @@ import Form from "./Form";
 
 const Hero = () => {
     return(
-        <div className="hero  text-center pt-24 font-Manrope md:text-left pb-5 max-w-screen-desktop mx-auto ">
+        <div className="hero  text-center pt-24 font-Manrope md:text-left pb-5 max-w-screen-desktop mx-auto " id="hero">
             <div className="w-full md:px-8 desktop:pl-24 desktop:pr-28 flex flex-wrap items-center justify-between">
                 <div className="max-w-[600px] mx-auto">
                     <h1 className="text-black  font-bold text-3xl md:text-4xl md:font-extrabold  md:w-[20ch]">Monetize your space. Leverage your skills.</h1>

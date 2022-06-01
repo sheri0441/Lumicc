@@ -7,7 +7,7 @@ const Banner = () => {
     return(
         <div className="bg-primary w-full text-white font-Manrope py-5
         max-w-screen-desktop mx-auto">
-            <div className='flex items-center justify-evenly flex-wrap'>
+            <div className='flex flex-col md:flex-row items-center justify-evenly flex-wrap'>
                 <div className='text-center mt-3 lg:mt-0'>
                     <img className='mx-auto' src={fees} alt="" />
                     <h3 className=' font-extrabold'>Flexible Fees</h3>
